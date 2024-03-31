@@ -64,7 +64,7 @@ test_ds = Dataset.from_pandas(test_data)
 val_ds = Dataset.from_pandas(val_data)
 
 
-checkpoint = 'facebook/bart-large-cnn' # Model
+checkpoint = input('Enter the HuggingFace or Checkpoints local directory for he model to finetune: ') #'facebook/bart-large-cnn'
 tokenizer = AutoTokenizer.from_pretrained(checkpoint) # Loading Tokenizer
 model = AutoModelForSeq2SeqLM.from_pretrained(checkpoint).to('cuda')
 
@@ -150,6 +150,5 @@ trainer = Seq2SeqTrainer(
     data_collator=data_collator,
     compute_metrics=compute_metrics,
 )
-
 
 trainer.train()

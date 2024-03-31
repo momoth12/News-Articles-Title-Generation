@@ -24,3 +24,5 @@ To install and run this project locally, follow these steps:
 To use the title generation functionality, you can run the notebooks corresponding to differents models.
 
 For testing differents models you can just change the checkpoint in model.py (checkpoint = 'facebook/bart-large-cnn') to train your model.
+
+Also, you can use the model.py file to train your own model, specially the BART model. Just run the file and you will ask for the model checkpoint. You can also use the submission.py file to generate the submission file for the challenge.
