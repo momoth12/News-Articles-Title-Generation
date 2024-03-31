@@ -1,0 +1,11 @@
+transformers
+huggingface_hub
+pandas
+torch
+datasets
+nltk
+numpy
+tqdm
+re
+rouge_score
+
