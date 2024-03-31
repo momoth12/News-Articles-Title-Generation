@@ -21,4 +21,6 @@ To install and run this project locally, follow these steps:
 
 ## Usage
 
-To use the title generation functionality, you can run the notebooks corresponding to differents models
+To use the title generation functionality, you can run the notebooks corresponding to differents models.
+
+For testing differents models you can just change the checkpoint in model.py (checkpoint = 'facebook/bart-large-cnn') to train your model.
