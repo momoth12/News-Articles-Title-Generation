@@ -1,6 +1,6 @@
 # News Articles Title Generation
 
-This repository contains the code and resources for the challenge [text](https://www.kaggle.com/competitions/inf582-news-articles-title-generation)
+This repository contains the code and resources for the challenge [INF582](https://www.kaggle.com/competitions/inf582-news-articles-title-generation)
 
 ## Table of Contents
 - [Introduction](#introduction)
